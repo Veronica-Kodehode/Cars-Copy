@@ -7,15 +7,16 @@ body {
 
 .types {
   display: flex;
-  height: 450px;
-  width: 800px;
+  height: 425px;
+  width: 875px;
 }
 
 .type {
   font-size: 15px;
-  padding: 46px;
+  padding: 40px;
   width: 33.33%;
   color: hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca", sans-serif;
 }
 
 h1 {
@@ -48,6 +49,17 @@ button {
   border-radius: 20px;
 }
 
-p {
-  font-family: "Lexend Deca", sans-serif;
+#sedan-btn {
+  color: hsl(31, 77%, 52%);
+  border: solid 1px #ffcc99;
+}
+
+#suv-btn {
+  color: hsl(184, 100%, 22%);
+  border: solid 1px #006666;
+}
+
+#luxury-btn {
+  color: hsl(179, 100%, 13%);
+  border: solid 1px #003333;
 }
