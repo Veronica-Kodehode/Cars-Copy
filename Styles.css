@@ -5,11 +5,20 @@ body {
   align-items: center;
 }
 
+h1 {
+  color: hsl(0, 0%, 95%);
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+/* Main container class */
+
 .types {
   display: flex;
   height: 425px;
   width: 875px;
 }
+
+/* class for the three parts inside the container */
 
 .type {
   font-size: 15px;
@@ -19,10 +28,7 @@ body {
   font-family: "Lexend Deca", sans-serif;
 }
 
-h1 {
-  color: hsl(0, 0%, 95%);
-  font-family: "Big Shoulders Display", sans-serif;
-}
+/* IDs for the 3 parts */
 
 #sedan {
   background-color: hsl(31, 77%, 52%);
@@ -42,12 +48,16 @@ h1 {
   border-bottom-right-radius: 10px;
 }
 
+/* button */
+
 button {
   margin-top: 60px;
   padding: 10px 25px;
   background-color: hsl(0, 0%, 95%);
   border-radius: 20px;
 }
+
+/* IDs for the 3 buttons */
 
 #sedan-btn {
   color: hsl(31, 77%, 52%);
